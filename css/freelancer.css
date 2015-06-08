@@ -15,6 +15,14 @@ a.active {
   color: #18bc9c;
   outline: none;
 }
+.success a,
+.success a:hover,
+.success a:focus,
+.success a:active,
+.success a.active {
+  color: white;
+  outline: none;
+}
 h1,
 h2,
 h3,
