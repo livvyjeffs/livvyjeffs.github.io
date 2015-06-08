@@ -22,6 +22,7 @@ a.active {
 .success a.active {
   color: white;
   outline: none;
+  text-decoration: underline;
 }
 h1,
 h2,
