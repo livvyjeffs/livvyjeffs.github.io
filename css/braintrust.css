@@ -120,7 +120,7 @@ header .intro-text .skills {
     transition: all 0.3s;
   }
 
-  .navbar-brand .getmii-brand{
+  .navbar-default .navbar-brand .getmii-brand{
     font-family: "Sacramento";
     color: #29D8D1;
   }
@@ -132,9 +132,9 @@ header .intro-text .skills {
   }
 }
 .navbar {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source+Sans+Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*text-transform: uppercase;*/
-  font-weight: 700;
+  /*font-weight: 700;*/
 }
 .navbar a:focus {
   outline: none;
