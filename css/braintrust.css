@@ -121,6 +121,10 @@ header .intro-text .skills {
     color: white;
   }
 
+.navbar-default {
+  background-color: #474747;
+}
+
   .navbar-default .navbar-brand .getmii-brand{
     font-family: "Sacramento";
     color: #29D8D1;
