@@ -114,15 +114,17 @@ header .intro-text .skills {
     transition: padding 0.3s;
   }
   .navbar-fixed-top .navbar-brand {
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    color: white;
   }
 
   .navbar-default .navbar-brand .getmii-brand{
     font-family: "Sacramento";
     color: #29D8D1;
+    font-size: 1.75em;
   }
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
