@@ -1,11 +1,620 @@
-     <!-- Google Analytics -->
-        <script>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>UX Design and Development by Olivia Jeffers</title>
+
+        <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/freelancer.css" rel="stylesheet">
+
+        <!-- Less CDN -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+        </head>
+
+        <body id="page-top" class="index">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#page-top">Creations by Olivia Jeffers</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden">
+                                <a href="#page-top"></a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#pricing">Pricing</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+
+            <!-- Header -->
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img class="img-responsive" src="img/profile.png" alt="">
+                            <div class="intro-text">
+                                <span class="name">Olivia Jeffers</span>
+                                <hr class="star-light">
+                                <span class="skills">User Experience Designer with a Technical Flare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>About</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <p>With many ideas and a few tools, I was a software designer and developer traveling through Asia as a <a href="https://nomadlist.com/">digital nomad</a>. While on a motorcycle trip through Laos and Vietnam...</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <p>I found an awesome job in Bangkok with <a href="http://www.twoboxventures.com">Two Box Ventures</a> as a Product Marketing Liaison, and eventually we created a product called <a href="http://www.getmii.com">Getmii</a> that is currently based in Cambridge, Massachussetts.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <p>I am currently starting a for-profit <a href="/greenlawns.html">company</a> centered around providing information to homeowners on energy use and water consumption for lawn care, encouraging homeowners to use eco-friendly services.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+            <!-- Portfolio Grid Section -->
+            <section id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2>Portfolio</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/ringio.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/frobot.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/saqsaywaman.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 portfolio-item">
+                            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/takemeto.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 portfolio-item">
+                            <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/portfolio/coffeeshops.png" class="img-responsive" alt="">
+                            </a>
+                        </div>
+                    <!-- 
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                        </a> 
+                    </div>-->
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Pricing</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                   <div class="col-lg-10 col-lg-offset-1">
+                    <h3>How does UX Design affect your bottom line?</h3>
+                    <p>A good design <a href="http://creative-jar.com/insights/creative2/good-digital-design-what-difference-does-it-make-to-the-bottom-line/" target="_blank">saves money</a> on future development costs. Building a web application is a lot like building a house, and can sometimes be just as expensive. Your business is an investment of your time and money, so be sure to choose a designer who can help get your product out quickly and at low cost.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h3>UX Design</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-1">
+                    <p>User Experience is a design philosophy that starts and ends with the user. We start with an initial analysis of your business goals and revenue model. Later we move into designing an application that gives your customers a pleasurable experience. Through focus on the user experience, your users can become loyal customers.</p>
+                </div>
+                <div class="col-lg-6">
+                    <table class="table table-hover">
+                        <thead>
+                            <th>UX Services</th>
+                            <th>Hourly</th>
+                        </thead>
+                        <tbody>
+                            <tr><td>Initial Design - Wireframes in Balsamiq</td><td>$50</td></tr>
+                            <tr><td>Testable Design - Rapid Prototyping in Axure</td><td>$70</td></tr>
+                            <tr><td>Graphics Design - Photoshop</td><td>$100</td></tr>
+                            <tr><td>Final Designs - Photoshop with Graphics</td><td>$150</td></tr>
+                            <tr>
+                                <td colspan="2">*These are estimated hourly rates, for per deliverable rates, contact me by <a href="mailto:jeffers.olivia@gmail.com">email</a>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h3>Product Development</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-1">
+                    <p>My focus is on rapid launch of a minimal viable product (MVP). I can help guide you in structuring a development team, or you can place me in your existing team. My rates change depending on the level of backend services and integration that you need.</p>
+                </div>
+                <div class="col-lg-6">
+                    <table class="table table-hover">
+                        <thead>
+                            <th>Development Services</th>
+                            <th>Hourly</th>
+                        </thead>
+                        <tbody>
+                            <tr><td>Pure Frontend - HTML/CSS</td><td>$50</td></tr>
+                            <tr><td>Frontend Interaction - Custom Javascript and jQuery Functions</td><td>$75</td></tr>
+                            <tr><td>Integrated with Backend - Ajax and PHP</td><td>$100</td></tr>
+                            <tr><td>Rapid MVP Development - MeteorJS</td><td>$150</td></tr>
+                            <tr>
+                                <td colspan="2">*These are estimated hourly rates, for per deliverable rates, contact me by <a href="mailto:jeffers.olivia@gmail.com">email</a>.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="success" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-light">
+                    <p>If you're interested in working with me, I'd love to hear from you!</p><p>Since I am traveling, the fastest way to get in touch with me is by filling out this <a href="https://docs.google.com/forms/d/1U5vLNKRnqmwtzRdD6TQENTBZM4o5b070eWJTUsumq_0/viewform" target="_blank">Google Form</a> or by sending me an <a href="mailto:jeffers.olivia@gmail.com">email</a> about your idea or project.</p>
+                    <p>( <a href="#contactForm" class="portfolio-link" data-toggle="modal">Google Form</a> | <a href="mailto:jeffers.olivia@gmail.com">Email</a> )</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Current Location</h3>
+                        <p>Motorcycling through Laos, please allow me a few days to get back to you!</p>
+                        <!-- <p>Vientiane, Laos</p> -->
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://www.facebook.com/olivia.jeffers" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                               <!--  <li>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li> -->
+                                <li>
+                                    <a href="http://www.twitter.com/livvyjeffs" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://www.linkedin.com/in/oliviajeffers/en" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                              <!--   <li>
+                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>About Olivia Jeffers</h3>
+                            <p>Olivia is a traveling freelancer who provides user interface, customer development, wireframing, and product management services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!--    <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; Your Website 2014
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </footer>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll visible-xs visble-sm">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+
+        <!-- Portfolio Modals -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h3>Front-End Development</h3>
+                                <h2>Ringio Admin Dashboard</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/ringio.png" class="img-responsive img-centered" alt="">
+                                <p>Ringio is a telephone sales management platform with Salesforce integration. The new admin dashboard is based in Bootstrap with custom styling and jQuery effects.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="http://www.ringio.com/">Ringio</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>January 2015
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Front-End Web Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h3>User Interface Design</h3>
+                                <h2>Frobot - Frozen Yogurt Vending Machine</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/frobot.png" class="img-responsive img-centered" alt="">
+                                <p>Frobot is a Frozen Yogurt Vending Machine orginally conceived of and made by Jeremy O'Sullivan and his team in McLean, Virginia. I designed the touch screen user interface showcased on the website.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="http://frobot.net">Frobot</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>June 2014
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>User Interface Design
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h3>Topographic Modeling</h3>
+                                <h2>Saqsaywaman</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/saqsaywaman.png" class="img-responsive img-centered" alt="">
+                                <p>Saqsaywaman is an Incan structure located 3,700 meters above sea level in Cusco, Peru. It boasts precise masonry of stones weighing over 2 tons and was built in the 1500s. Damaged by Spanish colonization and well-meaning archaeological practices, the site is unable to handle water runoff during the rainy season causing yearly degradation of the walls. This is a three dimensional topographic water model made from old maps and new survey points collected in the Summer of 2013.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>University of Virginia
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>June 2013
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Historical Topographic Modeling
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h3>Ideation, Design, Development</h3>
+                                <h2>Take Me To</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/takemeto-large.png" class="img-responsive img-centered" alt="">
+                                <p>When I first landed in Thailand, I had no idea what to do or where to go. A friend of mine who had been to Thailand before talked with me about my interests for a few minutes, and instantly gave me a travel plan. I thought what she did was better than what any service or technology could do, so my goal is to make a site that puts you in touch with a travel friend. To save time, save money, and have an overall better travel experience. The prototype is live on Meteor <a href="http://takemeto.meteor.com/" target="_blank">here</a>.</p>
+                                <p>I am currently looking for a development team for this project. Please contact me if interested.</p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        <strong>Self Made
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>January 2015
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Ideation, Design, Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h3>Ideation, Design, Development</h3>
+                                <h2>Coffee and WiFi</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/coffeeshops-large.png" class="img-responsive img-centered" alt="">
+                                <p>Get the latest WiFi speeds of coffee shops within walking distance. Inspired by many hours and Thai baht spent looking for Internet. The site is live <a href="http://www.coffee-and-wifi.in/" target="_blank">here</a>. Unfortunately for users in China, because this app runs on GoogleMaps, it only works behind the Great Firewall with a VPN.</p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        <strong>Self Made
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>February 2015
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>Ideation, Design, Development
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Form Modal -->
+        <div class="portfolio-modal modal fade" id="contactForm" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <iframe src="https://docs.google.com/forms/d/1U5vLNKRnqmwtzRdD6TQENTBZM4o5b070eWJTUsumq_0/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <!-- 
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Title</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/freelancer.js"></script>
+
+        <!-- Google Analytics -->
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-68851214-3', 'auto');
+      ga('create', 'UA-68851214-1', 'auto');
       ga('send', 'pageview');
 
     </script>
+    <!-- End Google Analytics -->
+
+    </body>
+
+    </html>
