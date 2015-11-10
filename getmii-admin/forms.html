@@ -106,6 +106,9 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
+
+$('#logout').click(FB.logout());
+
 </script>
 
 </head>
@@ -135,7 +138,7 @@
                     <ul class="dropdown-menu">
                        
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="#" id="logout"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                         </li>
                     </ul>
                 </li>
