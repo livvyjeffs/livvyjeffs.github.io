@@ -107,7 +107,12 @@
     });
   }
 
-$('#logout').click(FB.logout());
+function fbLogout() {
+        FB.logout(function (response) {
+            //Do what ever you want here when logged out like reloading the page
+            window.location.reload();
+        });
+    }
 
 </script>
 
@@ -183,6 +188,8 @@ $('#logout').click(FB.logout());
 <div id="status">
 </div>
 
+<span id="fbLogout" onclick="fbLogout()"><a class="fb_button fb_button_medium"><span class="fb_button_text">Logout</span></a></span>
+
                         <form id="change_form" role="form">
 
                             <div class="form-group">
@@ -226,6 +233,8 @@ $('#logout').click(FB.logout());
 
     <!-- Autocomplete  -->
     <script type="text/javascript" src="js/autocomplete.js"></script>
+
+ 
 
 </body>
 
