@@ -39,6 +39,7 @@
     if (response.status === 'connected') {
       // Logged into your app and Facebook.
       testAPI();
+      $('#change_form').show();
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
       document.getElementById('status').innerHTML = 'Please log ' +
@@ -179,7 +180,7 @@
 <div id="status">
 </div>
 
-                        <form role="form">
+                        <form id="change_form" role="form">
 
                             <div class="form-group">
                                 <label>Getmii...</label>

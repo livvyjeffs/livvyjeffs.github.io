@@ -17,6 +17,10 @@ body {
     }
 }
 
+#change_form{
+    display: none;
+}
+
 #wrapper {
     padding-left: 0;
 }
