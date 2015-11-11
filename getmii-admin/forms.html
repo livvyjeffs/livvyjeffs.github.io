@@ -28,6 +28,9 @@
     <![endif]-->
 
     <script>
+
+var fb_id, need_text, location;
+
   // This is called with the results from from FB.getLoginStatus().
   function statusChangeCallback(response) {
     console.log('statusChangeCallback');
@@ -40,6 +43,10 @@
       // Logged into your app and Facebook.
       testAPI();
       $('#change_form').show();
+      fb_id = response.userID;
+      $('#change_form_submit').click(function(){
+        
+      });
     } else if (response.status === 'not_authorized') {
       // The person is logged into Facebook, but not your app.
       document.getElementById('status').innerHTML = 'Please log ' +
@@ -100,7 +107,6 @@
   // successful.  See statusChangeCallback() for when this call is made.
   function testAPI() {
     console.log('Welcome!  Fetching your information.... ');
-    console.log(response);
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
@@ -203,7 +209,7 @@ function fbLogout() {
                                 <input id="autocomplete" class="form-control" placeholder="Where would you like to set location?" onFocus="geolocate()">
                             </div>
 
-                             <button type="submit" class="btn btn-default">Post the Need</button>
+                             <button id="change_form_submit" type="submit" class="btn btn-default">Post the Need</button>
                            
 
                         </form>
