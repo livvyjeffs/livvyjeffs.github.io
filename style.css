@@ -1,0 +1,43 @@
+body{
+	font-family: 'Courier New';
+}
+
+section{
+	padding: 10px 30px;
+	text-align: center;
+}
+
+.row{
+	display: inline-block;
+	text-align: left;
+	max-width: 800px;
+	width: 80%;
+}
+
+.centered{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.underlined{
+	text-decoration: underline;
+}
+
+.full-width{
+	max-width: 100%;
+}
+
+.medium-width{
+	width: 80%;
+}
+
+.small-width{
+	width: 60%;
+}
+
+.x-small-width{
+	width: 40%;
+}
