@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <title>Olivia Jeffers | Work Items</title>
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107560736-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107621120-1');
+    </script>
+
+
+</head>
+
+<body>
+
+    <section>
+        <div class="row">
+            <div class="centered">
+                <p>Olivia Jeffers</p>
+                <p>Work Products & Code Repos</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="centered">
+                <p>--------------------------</p>
+                <p><a href="Jeffers CV.pdf" target="_blank">CV</a>, <a href="Transcript.pdf" target="_blank">Transcript</a></p>
+                 <p>--------------------------</p>
+                <p><a href="Measuring Social Values.pdf" target="_blank">Mapping Emotive Biometrics</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="TOC">
+        <div class="row">
+            <p>Table of Contents</p>
+            <ol>
+                <li><a href="#Saqsaywaman">Saqsaywaman</a>, <a href="#GreenCities">Green Cities Urban Planning</a> | topographic water modeling (ArcGIS, 2013)</li>
+                <li><a href="#TribeSay">TribeSay</a> | crowd-sourced news by tag, (HTML, CSS, Javascript, jQuery, PHP, 2013-15)</li>
+                <li><a href="#Coffee">Coffee and WiFi</a> | crowd-sourced coffee and wifi data by location, (MeteorJS, MongoDB, Reactive Programming, 2015)</li>
+                <li><a href="#CompassionateTechnologies">Compassionate Technologies</a> | stories of technology and people (WebFlow, English, Story, 2016-17)</li>
+                <li><a href="#Neuroscience">Neuroscience</a> | looking at amyloid beta plaques in C. elegans (C. elegans, fluorescent stains, microscope, 2008)</li>
+            </ol>
+        </div>
+    </section>
+    <section id="Saqsaywaman">
+        <div class="row">
+            <p class="right"><a href="#TOC">(back to top)</a></p>
+            <p>// <span class="underlined">Saqsaywaman</span> (ArcGIS, 2013)</p>
+            <p>Saqsaywaman is an Incan ruin that began construction in the 1440s and was deconstructed by the Spanish after the failed Inca Rebellion of 1536; only three megalithic walls remain. In 2009, portions of the wall crumbled due to excess water runoff from a recently installed, impermeable clay layer, just above the damaged portion.</p>
+            <p>The goal of Miksad’s research is to prevent further damage by returning the site to its original drainage state using traditional Inca engineering practices. </p>
+            <ol>
+                <li>
+                    <a href="saqsaywaman/Jeffers - Investigating Water Supply at Saqsaywaman.pdf" target="_blank">Saqsaywaman Historic Site Review</a> [PDF]
+                    <p>The topography changed significantly during deconstruction of the site post-1536, since most of the accessible boulders were removed and used to construct the surrounding city of Cusco, Peru. Using first hand accounts, handdrawn maps, and aerial photography from the Dumbarton Oaks archives in Washington, D.C., I adjusted and rectified the images onto current topographical models to gain insight into original water flow and site structure.</p>
+                    <div class="centered">
+                        <img class="medium-width" src="saqsaywaman/old-and-new-saqsaywaman-maps.png">
+                    </div>
+                </li>
+                <li>
+                    <a href="saqsaywaman/Jeffers Civil Engineering Thesis.pdf" target="_blank">Civil Engineering Review (Thesis)</a> [PDF]
+                    <p>
+                    The team traveled to Peru in August 2013 to gather the remaining topographic data for to increase the accuracy of drainage analyses. The video shows hypothesized drainage canal, topographic data, wall data, and flow path analysis using ArcGIS and ArcScene.</p>
+                    <div class="centered">
+                       <iframe width="420" height="315"
+                       src="https://www.youtube.com/embed/gwLYMHiZ850">
+                   </iframe>
+               </div>
+           </li>
+       </ol>
+   </div>
+</section>
+<section id="GreenCities">
+    <div class="row">
+        <p class="right"><a href="#TOC">(back to top)</a></p>
+        <p>// <span class="underlined">Green Cities Urban Planning</span> (ArcGIS, 2013)</p>
+        <ol>
+            <li>
+              <p>
+                <a href="green-cities/Jeffers Chantry SWAT Team Green Cities.pdf">Stormwater Retrofit Analysis</a> [PDF]
+            </p>
+            <p>The Strategic Water Action Team used GIS analysis to identify and locate potential areas for stormwater retrofit in the Bellemeade Watershed of Richmond, Virginia. We used ArcGIS to calculate water savings and cost of retrofitting. Our proposal combined permeable pavement, green roof, reforestation, cistern use, and Filterra® boxes can reduce runoff during a 2-year, 30-minute storm by 300,000 gallons. This runoff reduction is the same as turning off 700 water hoses or half of an Olympic-size swimming pool.</p>
+
+            <div class="centered">
+                <img class="medium-width" src="green-cities/swat.png">
+            </div>
+        </li>
+    </ol>
+</div>
+</section>
+<section id="TribeSay">
+    <div class="row">
+        <p class="right"><a href="#TOC">(back to top)</a></p>
+        <p>// <span class="underlined">TribeSay</span> <a href="https://www.github.com/livvyjeffs/TribeSay" target="_blank">[Github Repo]</a> (HTML, CSS, Javascript, jQuery, PHP, 2013-15)</p>
+        <ol>
+            <li>
+              <p>
+                <a href="https://github.com/livvyjeffs/TribeSay/blob/master/js/masonry.js" target="_blank">Masonry Function</a> [link to code]
+            </p>
+            <p>By far, my favorite function during this project was the Masonry function. It was able to dyanimcally detect browser width and select the optimal number of columns to display news items. Timing was a huge issue here, because the items were ranked by tag, timeliness, and relevance -- so you couldn't just insert items as they arrived. I implemented a "frisbee gating" function, which used the API call as a frisbee toss and an ordering function to only open the gate for the next sequential item, letting the other items wait in queue. As each item arrived, I added it sequentially across columns to most naturally use the HTML and CSS sructures for a masonry or brick-like appearance. To optimize user experience, we called items in small batches, triggering new calls as the user approached the bottom of the screen, creating an endless stream effect.</p>
+            <p>All the shared news by 'space' tag:</p>
+            <div class="centered">
+                <img class="medium-width" src="tribesay/Main.png">
+            </div>
+            <p>Read news without distractions:</p>
+            <div class="centered">
+                <img class="medium-width" src="tribesay/Modal.png">
+            </div>
+        </li>
+    </ol>
+</div>
+</section>
+<section id="Coffee">
+    <div class="row">
+        <p class="right"><a href="#TOC">(back to top)</a></p>
+        <p>// <span class="underlined">Coffee and WiFi</span> <a href="https://www.github.com/livvyjeffs/coffee" target="_blank">[Github Repo]</a> (MeteorJS, MongoDB, Reactive Programming, 2015)</p>
+        <p><a href="http://coffeeandwifi.meteorapp.com/" target="_blank">[Live Site]</a></p>
+        <p>I discovered MeteorJS while doing <a href="ux-design/index.html" target="_blank">freelance design work in Thailand</a>, because I wanted to move fast without maintaining my own databases.</p>
+        <p>MeteorJS is a funny little creature. It is part of "reactive programming" which means that inherent to the framework structure, the client side view is immediately reactive to server side changes. It has a nice library of modules, and I would say that modularity is part of it's core philosophy as a coding language. Most files in the repo are very small, and hook into the HTML through template handlebar compilers such as Blaze, which offers the ability to process logic functions in HTML.</p>
+        <ol>
+            <li>
+                <p>
+                    <a href="https://www.linkedin.com/pulse/understanding-reactivity-meteor-using-iron-router-google-jeffers/">"Understanding Reactivity in Meteor Using Iron Router and Google Maps"</a>
+                </p>
+                <p>[Popular Article on LinkedIn, 2015]</p>
+            </li>
+            <li>
+              <p>Client Side Logic, using Blaze compilers</p>
+              <p>The index (top image) calls the template (bottom image) which contains the logic for processing each shop in the database.</p>
+              <div class="centered">
+                <img class="small-width" src="coffee/index.png">
+            </div>
+            <div class="centered">
+                <img class="small-width" src="coffee/blaze.png">
+            </div>
+        </li>
+        <li>
+          <p>Modularity and Reactivity</p>
+          <p><span class="underlined">Modularity</span>: The app is separated into 'node_modules' which are external modules, and 'app-*' folders which carry small functions internal to the app. In this way, it's easier to debug and faster to load. This type of programming can be confusing because you can't read it all in one page and the program becomes very sensitive to timing.</p>
+          <p><span class="underlined">Reactivity</span>: Any folder that says 'client' is visible only to the client-side browser, any folder that says 'server' is visible only to the server, and things inside 'lib' not under a 'client' or 'server' folder are visible to both. This makes the program very reactive and also very sensitive to timing issues.</p>
+          <div class="centered">
+            <img class="medium-width" src="coffee/modular.png">
+        </div>
+    </li>
+</ol>
+</div>
+</section>
+<section id="CompassionateTechnologies">
+    <div class="row">
+        <p class="right"><a href="#TOC">(back to top)</a></p>
+        <p>// <span class="underlined">Compassionate Technologies</span> <a href="https://www.compassionate-technologies.org" target="_blank">[Live Site]</a> (WebFlow, English, Story, 2016-17)</p>
+        <p>In January 2016, I started this project as an excuse to go to research symposiums in Boston, exploring the deep intersection of where mind meets matter. It was a throwing together of yin and yang, challenging the notion that technology is uncaring and masculine, and that compassion is irrational and feminine. It's also a riff on the concept of a technology being compassionate!</p>
+        <p>I was a "seminar reporter" going to topics on genetic engineering, inflammation research, nanostructural engineering, and pharmaceutical development -- and then writing about it. My articles were very dry at first!</p>
+        <p><span class="underlined">Storyline</span>: Soon the story began to emerge, and the dividing lines between disciplines and industry melted away. I began to interview not only scientists, but tech translation-alists and venture capitalists as well. I began to see that technology isn't separate from us, it is us just as much as we are it.</p>
+        <p>My stories began to follow the technologies themselves, slicing across the looping verticals of science, engineering, business, and context. [print distribution]</p>
+        <p class="underlined">Stories for General Technical Executive Audience:</p>
+        <ol>
+            <li>
+                <p><i>Trends</i>, <a href="ct/drug design/Series 1-1 Trends in Medicine-Drug Design.pdf" target="_blank">"Rational Design Re-Emerges to Change Up Drug Discovery"</a> (June 2016)</p>
+            </li>
+            <li>
+                <p><i>Research</i>, <a href="ct/drug design/Series 1-2 Research in Medicine-Drug Design.pdf" target="_blank">"How Alzheimer's and Diabetes Work at the Nano-Scale"</a> (June 2016)</p>
+            </li>
+            <li>
+                <p><i>Engineering</i>, <a href="ct/drug design/Series 1-3 Technology in Medicine-Drug Design.pdf" target="_blank">"Designing Away the Side Effects of a Former Wonder-Drug"</a> (June 2016)</p>
+            </li>
+            <li>
+                <p><i>Business</i>, <a href="ct/drug design/Series 1-4 Business in Medicine-Drug Design.pdf" target="_blank">"Taking Drugs from the Lab to your Nightstand"</a> (June 2016)</p>
+            </li>
+        </ol>
+        <p><span class="underlined">Publishing</span>: During this time, I played around with publishing and worked with ideas around podcasting, <a href="ct/Magazine (Sample).pdf" target="_blank">magazine</a> [PDF], print, and email newsletters. Eventually I found that the daily demands of running a publishing business wore away at my original enthusiasm and drive, which was investigative research.</p>
+        <div class="centered">
+            <iframe width="100%" height="600px" src="//e.issuu.com/embed.html#26295411/38838156" frameborder="0"></iframe>
+        </div>
+        <p>Once I took a break from the business, I found that I was reading research papers, working on code projects, and reading books again -- my energy and enthusiasm had returned, and I now had greater insight into myself.</p>
+        <p class="underlined">Stories for General Audience:</p>
+        <ol>
+         <li>
+            <p><a href="https://www.compassionate-technologies.org/sunday-weeklies/thoughts-on-technology-after-100-hours-of-meditation" target="_blank">"Thoughts On Technology After 100 Hours Of Meditation"</a> (2016) [also published in <a href="https://journal.thriveglobal.com/https-journal-thriveglobal-com-thoughts-on-technology-after-100-hours-of-meditation-bc0a3343160e" target="_blank">'Thrive Global']</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.compassionate-technologies.org/sunday-weeklies/pt-1-the-mind-of-matter-delving-into-consciousness" target="_blank">"The Mind of Matter, Delving into Consciousness"</a> (2017) [<a href="https://humanizing.tech/the-mind-of-matter-delving-into-consciousness-ef415dd6ab3e" target="_blank">'Humanizing Tech']</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.compassionate-technologies.org/sunday-weeklies/pt-2-the-many-faces-of-a-neuron-cell-wire-and-computer" target="_blank">"The Many Faces of A Neuron: Cell, Wire, Computer"</a> (2017) [<a href="https://humanizing.tech/part-ii-the-many-faces-of-a-neuron-cell-wire-and-computer-21cc03632183" target="_blank">'Humanizing Tech']</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.compassionate-technologies.org/sunday-weeklies/pt-3-the-biology-of-machines-the-chemistry-of-transistors" target="_blank">"The Anatomy of Machines, the Chemistry of Transistors"</a> (2017) [<a href="https://humanizing.tech/part-iii-the-biology-of-machines-the-chemistry-of-transistors-8cef1d851406" target="_blank">'Humanizing Tech']</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.compassionate-technologies.org/sunday-weeklies/transistor-meet-neuron-the-very-real-science-behind-elon-musks-neuralink-investment" target="_blank">"Transistor, Meet Neuron: the science behind Elon Musk's Neuralink investment"</a> (2017) [<a href="https://humanizing.tech/borg-mice-the-real-science-behind-elon-musks-neuralink-investment-8c1550aba8ac" target="_blank">'Humanizing Tech']</a></p>
+        </li>
+    </ol>
+</div>
+</section>
+<section id="Neuroscience">
+    <div class="row">
+        <p class="right"><a href="#TOC">(back to top)</a></p>
+        <p>// <span class="underlined">Neuroscience</span> <a href="neuroscience/Melatonin C Elegans Poster.pdf" target="_blank">[Poster PDF]</a> (C. elegans, fluorescent stains, microscope, 2008)</p>
+        <p>I put this at the end because it was a high school experience and the work is no longer representative of my current state, but it is fundamental and relevant to my pursuit of neuroscience.</p>
+        <p>My most vivid memory of this lab experience, was sitting in the dark lab room during the summer after graduation, staring into the barrels of the microscope, straining my eyes for any fluorescent signs. After struggling for a few weeks, with the computer, then the microscope, and then my own frustration -- I realized that there was a miscommunication on the strain of C. elegans, and the version I had ordered was not designed to display amyloid beta using the stain!</p>
+        <p>I left that experience feeling like a failure because I didn't get the data I wanted, but in hindsight after about 8 years of life experience, I realize that I learned valuable lessons.</p>
+        <p>I learned that it's not always the 'what' that matters, but the 'how'. In my failure, I learned that craving for a goal clouds judgment. I learned how to be tenacious until I'd figured out why -- and I learned how to check even my most basic assumptions, not only about the situation, but about myself as the perceiver of the situation.</p>
+        <ol>
+            <li>
+                <p>
+                    <a href="neuroscience/Effect of Melatonin on Rate of Amyloid Beta Aggregation in Strain CL4176 C. elegans - Part 1.pdf" target="_blank">"The Effect of Melatonin on the Rate of Amyloid-beta Aggregation in the Caenorhabditis elegans Strain CL4176"</a>
+                    (Jeffers, Ramamurthi, 2008)
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="neuroscience/Effect of Melatonin on Rate of Amyloid Beta Aggregation in Strain CL4176 C. elegans - Part 2.pdf" target="_blank">Tables of Data</a>
+                    (Jeffers, Ramamurthi, 2008)
+                </p>
+            </li>
+            <li>
+              <p>Some weeks of my summer:</p>
+              <div class="centered">
+                <img class="medium-width" src="neuroscience/worms.png">
+            </div>
+        </li>
+    </ol>
+</div>
+</section>
+<section>
+    <div class="row">
+        <p class="right"><a href="#TOC">(back to top)</a></p>
+    </div>
+</section>
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Google Analytics -->
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107560736-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107560736-1');
+</script> -->
+
+
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68851214-1', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+
+</body>
+
+</html>
